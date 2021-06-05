@@ -1,14 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package javaapplication1;
 
-/**
- *
- * @author saad mustafa
- */
+
 public class NewJFrame extends javax.swing.JFrame {
 
     /**
@@ -186,11 +179,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         accountno.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         accountno.setMinimumSize(new java.awt.Dimension(11, 20));
-        accountno.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                accountnoActionPerformed(evt);
-            }
-        });
+        
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 0, 0));
@@ -220,11 +209,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         address.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         address.setMinimumSize(new java.awt.Dimension(11, 20));
-        address.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                addressActionPerformed(evt);
-            }
-        });
+       
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 0, 0));
@@ -233,36 +218,20 @@ public class NewJFrame extends javax.swing.JFrame {
         jComboBox1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Male", "Female", " " }));
         jComboBox1.setActionCommand("");
-        jComboBox1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox1ActionPerformed(evt);
-            }
-        });
+       
 
         mobile.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         mobile.setMinimumSize(new java.awt.Dimension(11, 20));
-        mobile.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                mobileActionPerformed(evt);
-            }
-        });
+       
 
         jComboBox2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Egypt", "Sudan", "Saudi Arabia", "Tunisia ", "Somalia ", "Algeria ", "Morocco ", "Iraq ", "Syria ", "Yemen ", "Libya" }));
-        jComboBox2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox2ActionPerformed(evt);
-            }
-        });
+        
 
         jComboBox4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Personal", "Vip", " " }));
         jComboBox4.setActionCommand("");
-        jComboBox4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox4ActionPerformed(evt);
-            }
-        });
+       
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -362,11 +331,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel17.setText("ACCOUNT NO");
 
         Entertheaccountno2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Entertheaccountno2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Entertheaccountno2ActionPerformed(evt);
-            }
-        });
+       
 
         jLabel18.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel18.setText("Enter the account no");
@@ -375,11 +340,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel19.setText("Deposit");
 
         Deposit.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Deposit.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DepositActionPerformed(evt);
-            }
-        });
+       
 
         jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication1/icons8-save-50.png"))); // NOI18N
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -497,11 +458,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel10.setText("NAME");
 
         Entertheaccountno.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Entertheaccountno.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                EntertheaccountnoActionPerformed(evt);
-            }
-        });
+       
 
         jLabel14.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(255, 0, 0));
@@ -524,11 +481,7 @@ public class NewJFrame extends javax.swing.JFrame {
         textboxaccounttype.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
 
         textboxname.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        textboxname.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                textboxnameActionPerformed(evt);
-            }
-        });
+        
 
         textboxblance.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
 
@@ -619,21 +572,13 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel22.setText("Enter the account no");
 
         Entertheaccountno6.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Entertheaccountno6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Entertheaccountno6ActionPerformed(evt);
-            }
-        });
+       
 
         jLabel23.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel23.setText("withdrawal");
 
         withdrawal.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        withdrawal.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                withdrawalActionPerformed(evt);
-            }
-        });
+       
 
         jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication1/icons8-cash-withdrawal-42.png"))); // NOI18N
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -764,11 +709,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jTabbedPane1.addTab("Balance withdrawal", jPanel4);
 
         Entertheaccountno7.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Entertheaccountno7.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Entertheaccountno7ActionPerformed(evt);
-            }
-        });
+        
 
         jLabel28.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel28.setText("The sender's account number");
@@ -781,11 +722,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel33.setText("The balance to be sent");
 
         Thebalancetobesent.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Thebalancetobesent.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ThebalancetobesentActionPerformed(evt);
-            }
-        });
+        
 
         jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication1/iconfinder400.png"))); // NOI18N
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -795,11 +732,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         Entertheaccountno8.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Entertheaccountno8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Entertheaccountno8ActionPerformed(evt);
-            }
-        });
+      
 
         jLabel34.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel34.setText("Correspondent's account number");
@@ -983,10 +916,7 @@ public class NewJFrame extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void Entertheaccountno8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Entertheaccountno8ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Entertheaccountno8ActionPerformed
-
+    // transfer button
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
 
         create.Enter_the_accountno_text1=Entertheaccountno7.getText();
@@ -1044,14 +974,7 @@ public class NewJFrame extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jButton7ActionPerformed
 
-    private void ThebalancetobesentActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ThebalancetobesentActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ThebalancetobesentActionPerformed
-
-    private void Entertheaccountno7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Entertheaccountno7ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Entertheaccountno7ActionPerformed
-
+    // withdrawal button 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
 
         value_c.setText("");
@@ -1138,18 +1061,7 @@ public class NewJFrame extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jButton6ActionPerformed
 
-    private void withdrawalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_withdrawalActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_withdrawalActionPerformed
-
-    private void Entertheaccountno6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Entertheaccountno6ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Entertheaccountno6ActionPerformed
-
-    private void textboxnameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textboxnameActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_textboxnameActionPerformed
-
+    // find button
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         /////////********************
         create.Accountno_index=Integer.parseInt( Entertheaccountno.getText());
@@ -1170,10 +1082,7 @@ public class NewJFrame extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jButton4ActionPerformed
 
-    private void EntertheaccountnoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EntertheaccountnoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_EntertheaccountnoActionPerformed
-
+    // deposit button
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
 
         create.acc=Entertheaccountno2.getText();
@@ -1191,34 +1100,7 @@ public class NewJFrame extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jButton5ActionPerformed
 
-    private void DepositActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DepositActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_DepositActionPerformed
-
-    private void Entertheaccountno2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Entertheaccountno2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Entertheaccountno2ActionPerformed
-
-    private void jComboBox4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox4ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox4ActionPerformed
-
-    private void jComboBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox2ActionPerformed
-
-    private void mobileActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mobileActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_mobileActionPerformed
-
-    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox1ActionPerformed
-
-    private void addressActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addressActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_addressActionPerformed
-
+    // create button
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
 
         if(create.Name!="" && create.Date!=""&& create.Address!="" && create.Mobileno!=""&& create.Accountno!="" )
@@ -1250,15 +1132,9 @@ public class NewJFrame extends javax.swing.JFrame {
         accountno.setText("");
     }//GEN-LAST:event_jButton3ActionPerformed
 
-    private void accountnoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_accountnoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_accountnoActionPerformed
-
+ 
 myclass create=new myclass();
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
